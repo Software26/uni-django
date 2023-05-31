@@ -69,5 +69,15 @@ webapp
 ----crear app--- 
 
 comando
-|--------------crear otra aplicacion
-python manage.py startapp persona
+|----------crear otra aplicacion------|
+|--python manage.py startapp persona--|
+|-------------------------------------|
+
+comandos para agregar la contrasena a la consola de adimicion de django
+
+python manage.py createsuperuser
+
+
+(venv) PS C:\Users\ELNAT\OneDrive\Documentos\GitHub\uni-django> python manage.py createsuperuser
+Username (leave blank to use 'elnat'): admin
+Email address: admin@mail.com
