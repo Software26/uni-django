@@ -8,7 +8,7 @@ class Domiciolio(models.Model):
     pais = models.CharField(max_length=255)
     
     def __str__(self):
-        return (f'Domicilio {self.id} {self.calle} {self.no_calle}{self.pais}')
+        return (f'Domicilio {self.id} {self.calle} {self.no_calle} {self.pais}')
     
 class Persona(models.Model):
     nombre = models.CharField(max_length=255)
